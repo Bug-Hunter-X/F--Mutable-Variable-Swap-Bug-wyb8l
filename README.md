@@ -1,0 +1,1 @@
+This example demonstrates a common error in F# when working with mutable variables and function parameters. The `swap` function attempts to swap the values of two mutable variables, but it fails because F# function parameters are passed by value, not by reference.  The solution shows how to correctly swap the values using a tuple or by passing the variables as mutable references.
